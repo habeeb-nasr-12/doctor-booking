@@ -1,10 +1,10 @@
-import DoctorCard from "../Components/doctor/Doctorcard";
 import { useState } from "react";
 import doctors from "../data/doctors";
 import { Layout, Divider, Pagination, Empty } from "antd";
 import FilterBar from "../Components/layout/FilterBar";
 import { removeUndefinedValues } from "../lib/utils";
 import usePagination from "../hooks/usePagination";
+import DoctorCard from "./../Components/doctor/DoctorCard/DoctorCard.jsx";
 
 const { Content } = Layout;
 
@@ -18,7 +18,6 @@ function Home() {
     paginatedItems: doctorsData,
     totalItems,
   } = usePagination(filteredDoctors, ITEMS_PER_PAGE);
-
   const createSearchCriteria = (filteredValues) => {
     return Object.entries(filteredValues).map(([key, value]) => ({
       key,

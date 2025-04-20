@@ -1,8 +1,8 @@
 import React, { useContext, useState } from "react";
 import { Modal, Button, notification } from "antd";
-import { getDayLabel } from "../../lib/utils";
-import { reservationContext } from "../../context/Reservation";
-import Image from "../layout/Image";
+import { getDayLabel } from "../../../lib/utils";
+import { reservationContext } from "../../../context/Reservation";
+import Image from "../../layout/Image";
 
 const BookModal = ({ doctor }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);

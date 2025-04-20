@@ -35,7 +35,7 @@ const reducer = (state, action) => {
           onClick: () => notification.destroy(),
           onClose: () => {
             window.announcer?.("Error notification closed");
-          }
+          },
         });
         return state;
       }
@@ -50,7 +50,7 @@ const reducer = (state, action) => {
           onClick: () => notification.destroy(),
           onClose: () => {
             window.announcer?.("Error notification closed");
-          }
+          },
         });
         return state;
       }
@@ -64,7 +64,7 @@ const reducer = (state, action) => {
         onClick: () => notification.destroy(),
         onClose: () => {
           window.announcer?.("Success notification closed");
-        }
+        },
       });
       delete reservationData.timeSlots;
       newState = {
@@ -91,7 +91,7 @@ const reducer = (state, action) => {
         onClick: () => notification.destroy(),
         onClose: () => {
           window.announcer?.("Success notification closed");
-        }
+        },
       });
       break;
 

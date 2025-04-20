@@ -4,4 +4,9 @@ import tailwindcss from "@tailwindcss/vite";
 import { imagetools } from 'vite-imagetools';
 export default defineConfig({
   plugins: [react(), tailwindcss(), imagetools()],
+  test: {
+    environment: 'jsdom',
+    globals: true,
+    setupFiles: './src/setupTests.js',
+  },
 });

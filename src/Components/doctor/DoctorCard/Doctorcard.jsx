@@ -1,7 +1,7 @@
 import { Card, Rate, Tag, Divider } from "antd";
-import Image from "../layout/Image";
-import BookModal from "./BookModal";
-import { getDayLabel } from "../../lib/utils";
+import Image from "../../layout/Image";
+import BookModal from "../BookModal/BookModal";
+import { getDayLabel } from "../../../lib/utils";
 
 function DoctorCard({ doctor }) {
   return (
