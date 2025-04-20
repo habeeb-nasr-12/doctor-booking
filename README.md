@@ -7,6 +7,8 @@ A fully responsive and accessible doctor appointment booking UI built with React
 - Doctor directory listing (mock data)
 - Multi filtering options (specialty, name , rate , availability)
 - Booking modal with available time slots
+- the user cannot book a time slot that is already booked or a doctor is already booked.
+- Confirmation modal after booking
 - Viewing confirmed appointments
 - Responsive design across mobile, tablet, and desktop
 - Accessibility optimized (keyboard navigation, aria labels)
