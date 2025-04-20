@@ -12,6 +12,7 @@ A fully responsive and accessible doctor appointment booking UI built with React
 - Viewing confirmed appointments
 - Responsive design across mobile, tablet, and desktop
 - Accessibility optimized (keyboard navigation, aria labels)
+- live version passed lighthouse 
 
 ---
 
@@ -23,11 +24,17 @@ Follow these steps to run the project locally:
 git clone https://github.com/habeeb-nasr-12/doctor-booking.git
 cd doctor-booking
 Install dependencies:
+<br/>
 npm install
+<br/>
 Start the development server:
+<br/>
 npm run dev
+<br/>
 Run the test suite:
+<br/>
 npm run test
+<br/>
 Note: Make sure you have Node.js and npm installed.
 
 🤖 How I Used AI Tools
